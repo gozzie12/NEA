@@ -1,40 +1,40 @@
 table {
-    display: flex;
-    flex-flow: column;
-    width: 100%;
-    border-collapse: collapse;
-    border-spacing: 0;
-    margin: 0%;
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin: 0%;
 }
 
 html,
 body {
-    margin: 0;
-    height: 100%;
-    overflow: hidden
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
 }
 
 thead {
-    flex: 0 0 auto;
+  flex: 0 0 auto;
 }
 
 tbody {
-    flex: 1 1 auto;
-    display: block;
-    overflow-y: auto;
-    overflow-x: hidden;
+  flex: 1 1 auto;
+  display: block;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 tr {
-    width: 100%;
-    display: table;
-    table-layout: fixed;
+  width: 100%;
+  display: table;
+  table-layout: fixed;
 }
 
 /* make h1 and h2 smaller*/
 
 h1,
 h2 {
-    font-size: 1.5em;
-    /* Adjust this value as needed */
+  font-size: 1.5em;
+  /* Adjust this value as needed */
 }
